@@ -1,0 +1,39 @@
+unt func add(unt a, unt b)
+{
+create unt sum;
+sum = a + b;
+return sum;
+}
+
+main
+{
+
+create unt num1;
+create unt num2;  
+num1 = 45;
+num2 = 16;  
+
+create unt num3 = 10;
+writeline num3;
+num3 > > 2;
+writeline num3;
+create unt num4 = 0001;
+num4 = 000Fh;
+writeline num4;
+
+create sym SYMBOL = '1';
+
+create unt sum_12 = add(num1,num2);
+writeline sum_12;
+
+get_time();
+get_date();
+
+create unt iter = 0;
+while(iter !  10)[ writeline iter; iter = iter + 1; ];
+create bool More = false;
+ 
+
+return 0;
+
+}
