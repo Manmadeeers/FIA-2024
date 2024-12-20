@@ -1,0 +1,25 @@
+﻿Сборка начата 20.12.2024 8:11:31.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Manmade\Desktop\SE_CP\FIA-2024\ASM\ASM.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "Debug\ASM.tlog\unsuccessfulbuild".
+       _MASM:
+         Assembling ..\Debug\FIA.txt.asm...
+         cmd.exe /C "C:\Users\Manmade\AppData\Local\Temp\tmp24b8ad33f8f446209af7641b8b623ae0.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\FIA.txt.obj" /W3 /errorReport:prompt  /Ta..\Debug\FIA.txt.asm
+     1>..\Debug\FIA.txt.asm(59): error A2008: syntax error : mov
+     1>C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\FIA.txt.obj" /W3 /errorReport:prompt  /Ta..\Debug\FIA.txt.asm" с кодом "1".
+     1>Сборка проекта "C:\Users\Manmade\Desktop\SE_CP\FIA-2024\ASM\ASM.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\Manmade\Desktop\SE_CP\FIA-2024\ASM\ASM.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект _MASM) -> 
+         ..\Debug\FIA.txt.asm(59): error A2008: syntax error : mov
+         C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: выход из команды "ml.exe /c /nologo /Zi /Fo"Debug\FIA.txt.obj" /W3 /errorReport:prompt  /Ta..\Debug\FIA.txt.asm" с кодом "1".
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.19
